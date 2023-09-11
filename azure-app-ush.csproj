@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_ush</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a18b32e5-5377-45f5-936f-8ded506b8127/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-ush</ApplicationInsightsResourceId>
+    <UserSecretsId>80dddaf6-329c-40ac-b2a7-2d8728c2d8c7</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
